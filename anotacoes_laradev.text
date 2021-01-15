@@ -1,0 +1,34 @@
+/**********************************************
+    MUDAR NAMESPACE ( NOME DA APLICAÇÃO )
+
+    php artisan app:name ( nome )
+*/
+
+/*******************************************************************************
+    MUDAR TIMEZONE
+
+    vá para /config/app.php
+    Linha 68:
+        escreva: 'America/Sao_Paulo'
+
+     acesse: https://github.com/Upinside/laravel-pt-BR e siga as instruções
+ */
+
+ /*******************************************************************************
+     VIEW - HTML
+
+     Arquivos html (view) ficam em /resoucers/views
+  */
+
+ /***************************
+    DEFININDO ROTAS
+
+    ( arquivo de configuração de rotas )
+    /routes/web.php
+
+    CRIANDO CONTROLER PELO TERMINAL
+    php artisan make:controller PropertyController
+
+    Os controllers ficam em /app/Http/Controllers
+
+ */
